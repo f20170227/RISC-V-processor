@@ -1,5 +1,5 @@
 # RISC-V-processor
-Verilog Code of a 5 stage pipelined, 32 bit RISC V processor - M extension with some DSP instructions also.
+Verilog Code of a 5 stage pipelined, 32 bit RISC V processor - M extension with some DSP instructions as well.
 
 This is a bit different from the general RISC V processor. The total number of registers are 32 ranging from R0 to R31 in which R0 is the zeroth register, its value will always
 remain 0, R1-R30 are 32 bit general purpose register and R31 is the 64 bit accumulator register. It has a jump instruction to the absolute address. The execution stage, apart from ALU has an accumulator unit, a saturation unit, 
